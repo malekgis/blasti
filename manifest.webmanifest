@@ -1,0 +1,22 @@
+{
+  "name": "بلاصتي · وقود تمنراست",
+  "short_name": "بلاصتي",
+  "description": "احجز بلاصتك في طابور الوقود: صوّر لوحة مركبتك، خذ رقمك ورمز QR، وادخل من الحاجز في وقتك.",
+  "lang": "ar",
+  "dir": "rtl",
+  "start_url": "./#register",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ECEBE7",
+  "theme_color": "#283C8C",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "احجز دوري", "url": "./#register", "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] },
+    { "name": "تذكرتي", "url": "./#mine", "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] }
+  ]
+}
